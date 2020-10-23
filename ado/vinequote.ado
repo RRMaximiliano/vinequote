@@ -14,7 +14,8 @@ capture program drop vinequote
 	}
 
 	if `x' > 0.02 & `x' <= 0.04 {
-		di as txt  "- Nate, how are those chicken strips? - F%#K YA CHICKEN STRIPS.....F%#K ya chicken strips!"
+		di as txt  "- Nate, how are those chicken strips?"
+		di as txt  "- F%#K YA CHICKEN STRIPS... F%#K ya chicken strips!"
 		exit
 	}
 
@@ -24,12 +25,12 @@ capture program drop vinequote
 	}
 
 	if `x' > 0.06 & `x' <= 0.08 {
-		di as txt  "Happy Crimus.... It's crismun... Merry crisis. Merry Chrysler."
+		di as txt  "Happy Crimus... It's crismun... Merry crisis. Merry Chrysler."
 		exit
 	}
 
 	if `x' > 0.08 & `x' <= 0.10 {
-		di as txt  "...Hi Welcome to Chili's."
+		di as txt  "... Hi Welcome to Chili's."
 		exit
 	}
 
@@ -49,12 +50,13 @@ capture program drop vinequote
 	}
 
 	if `x' > 0.16 & `x' <= 0.18 {
-		di as txt  "It's a avocadooo... thanks"
+		di as txt  "It's a avocadooo... Thanks!"
 		exit
 	}
 
 	if `x' > 0.18 & `x' <= 0.20 {
-		di as txt  "- ...And they were roommates - Mah God they were roommates!"
+		di as txt  "- ...And they were roommates" 
+		di as txt  "- Mah God they were roommates!"
 		exit
 	}
 
@@ -64,7 +66,10 @@ capture program drop vinequote
 	}
 
 	if `x' > 0.22 & `x' <= 0.24 {
-		di as txt  "Yo, how much money do you have? 69 cents - AYE, you know what that means? I don't have enough money for chicken nuggets."
+		di as txt  "- Yo, how much money do you have?"
+		di as txt  "- 69 cents."
+		di as txt  "- AYE, you know what that means?" 
+		di as txt  "- I don't have enough money for chicken nuggets."
 		exit
 	}
 
@@ -74,7 +79,8 @@ capture program drop vinequote
 	}
 
 	if `x' > 0.26 & `x' <= 0.28 {
-		di as txt  "Hey, Tara you want some? This b*%th empty. YEET!"
+		di as txt  "- Hey, Tara you want some?" 
+		di as txt  "- This b*%th empty. YEET!"
 		exit
 	}
 
@@ -94,7 +100,9 @@ capture program drop vinequote
 	}
 
 	if `x' > 0.34 & `x' <= 0.36 {
-		di as txt  "Jared, can you read number 23 for the class? No, I cannot.... What up? I'm Jared, I'm 19 and I never f#@%in learned how to read."
+		di as txt  "- Jared, can you read number 23 for the class?" 
+		di as txt  "No, I cannot..." 
+		di as txt  "*What up? I'm Jared, I'm 19 and I never f#@%in learned how to read.*"
 		exit
 	}
 
@@ -109,12 +117,14 @@ capture program drop vinequote
 	}
 
 	if `x' > 0.40 & `x' <= 0.42 {
-		di as txt  "- Hey, I'm lesbian. - I thought you were American."
+		di as txt  "- Hey, I'm lesbian." 
+		di as txt  "- I thought you were American."
 		exit
 	}
 
 	if `x' > 0.42 & `x' <= 0.44 {
-		di as txt  "I spilled lipstick in your Valentino bag. You spilled — whaghwhha — lipstick in my Valentino White bag?"
+		di as txt  "- I spilled lipstick in your Valentino bag." 
+		di as txt  "- You spilled — whaghwhha — lipstick in my Valentino White bag?"
 		exit
 	}
 
@@ -124,12 +134,15 @@ capture program drop vinequote
 	}
 
 	if `x' > 0.46 & `x' <= 0.48 {
-		di as txt  "How'd you get these bumps? ya got eggzma? I got what? You got eggzma?"
+		di as txt  "- How'd you get these bumps? ya got eggzma?" 
+		di as txt  "- I got what?"
+		di as txt  "- You got eggzma?"
 		exit
 	}
 
 	if `x' > 0.48 & `x' <= 0.50 {
-		di as txt  "WHAT ARE THOSEEEEE? THEY are my crocs!"
+		di as txt  "- WHAT ARE THOSEEEEE?"
+		di as txt  "- THEY are my crocs!"
 		exit
 	}
 
@@ -139,17 +152,20 @@ capture program drop vinequote
 	}
 
 	if `x' > 0.52 & `x' <= 0.54 {
-		di as txt  "HAPPY BIRTHDAY RAVEN! I can't sweem."
+		di as txt  "- HAPPY BIRTHDAY RAVEN!" 
+		di as txt  "- I can't sweem."
 		exit
 	}
 
 	if `x' > 0.54 & `x' <= 0.56 {
-		di as txt  "Say Coloradoo. I'M A GIRAFFE!!"
+		di as txt  "Say Coloradoo." 
+		di as txt  "I'M A GIRAFFE!!"
 		exit
 	}
 
 	if `x' > 0.56 & `x' <= 0.58 {
-		di as txt  "How much did you pay for that taco? Aight, yo, you know this boys got his free tacoo."
+		di as txt  "- How much did you pay for that taco?" 
+		di as txt  "- Aight, yo, you know this boys got his free tacoo."
 		exit
 	}
 
@@ -164,12 +180,19 @@ capture program drop vinequote
 	}
 
 	if `x' > 0.62 & `x' <= 0.64 {
-		di as txt  "I brought you Frankincense. Thank you. I brought you Myrrh. Thank you. Mur-dur! Huh...Judas..no!"
+		di as txt  "I brought you Frankincense." 
+		di as txt  "Thank you." 
+		di as txt  "I brought you Myrrh."
+		di as txt  "Thank you." 
+		di as txt  "Mur-dur!"
+		di as txt  "Huh... Judas... no!"
 		exit
 	}
 
 	if `x' > 0.64 & `x' <= 0.66 {
-		di as txt  "Sleep? I don't know about sleep... it's summertime. You ain't go to bed? Oh, she caught me."
+		di as txt  "- Sleep? I don't know about sleep... It's summertime." 
+		di as txt  "- You ain't go to bed?"
+		di as txt  "- Oh, she caught me."
 		exit
 	}
 
@@ -179,27 +202,41 @@ capture program drop vinequote
 	}
 
 	if `x' > 0.68 & `x' <= 0.70 {
-		di as txt  "Oh, I like ya accent where you from? I'm Liberian. Oh, my bad. *whispering* I like your accent..."
+		di as txt  "- Oh, I like ya accent where you from?" 
+		di as txt  "- I'm Liberian." 
+		di as txt  "- Oh, my bad. *whispering* I like your accent..."
 		exit
 	}
 
 	if `x' > 0.70 & `x' <= 0.72 {
-		di as txt  "Next Please. Hello. Sir, this is a mugshot. A mug shot? I don't even drink coffee."
+		di as txt  "- Next Please." 
+		di as txt  "- Hello." 
+		di as txt  "- Sir, this is a mugshot." 
+		di as txt  "- A mug shot? I don't even drink coffee."
 		exit
 	}
 
 	if `x' > 0.72 & `x' <= 0.74 {
-		di as txt  "Hey, did you happen to go to class last week? I have never missed a class."
+		di as txt  "- Hey, did you happen to go to class last week?" 
+		di as txt  "- I have never missed a class."
+		di as txt  "- Ok..."
 		exit
 	}
 
 	if `x' > 0.74 & `x' <= 0.76 {
-		di as txt  "Go ahead and introduce yourselves. My name is Michael with a B and I've been afraid of insects my entire- Stop, stop, stop. Where? Hmm? Where's the B? There's a bee?"
+		di as txt  "- Go ahead and introduce yourselves."
+		di as txt  "- My name is Michael with a B and I've been afraid of insects my entire" 
+		di as txt  "- Stop, stop, stop. Where?" 
+		di as txt  "- Hmm?" 
+		di as txt  "- Where's the B?" 
+		di as txt  "- There's a bee?"
 		exit
 	}
 
 	if `x' > 0.76 & `x' <= 0.78 {
-		di as txt  "There's only one thing worse than a rapist...Boom A child. No."
+		di as txt  "- There's only one thing worse than a rapist... Boom" 
+		di as txt  "- A child."
+		di as txt  "- No."
 		exit
 	}
 
@@ -209,7 +246,8 @@ capture program drop vinequote
 	}
 
 	if `x' > 0.80 & `x' <= 0.82 {
-		di as txt  "'Dad, look, it's the good kush.' 'This is the dollar store, how good can it be?"
+		di as txt  "- Dad, look, it's the good kush."
+		di as txt  "- This is the dollar store, how good can it be?"
 		exit
 	}
 
@@ -219,22 +257,30 @@ capture program drop vinequote
 	}
 
 	if `x' > 0.84 & `x' <= 0.86 {
-		di as txt  "CHRIS! Is that a weed? 'No this is a crayon-' I'm calling the police' *puts 911 into microwave* '911 what's your emergency?'" 
+		di as txt  "CHRIS! Is that a weed?"
+		di as txt  "No, this is a crayon-" 
+		di as txt  "I'm calling the police." 
+		di as txt  "*puts 911 into microwave*" 
+		di as txt  "911 what's your emergency?" 
 		exit
 	}
 
 	if `x' > 0.86 & `x' <= 0.88 {
-		di as txt  "WHY? WHY? WHY? WHY? WHY? "
+		di as txt  "WHY? WHY? WHY? WHY? WHY?"
 		exit
 	}
 
 	if `x' > 0.88 & `x' <= 0.90 {
-		di as txt  "*Blowing vape on table* * cameraman blows it away* 'ADAM!' "
+		di as txt  "*Blowing vape on table* * cameraman blows it away* 'ADAM!'"
 		exit
 	}
 
 	if `x' > 0.90 & `x' <= 0.92 {
-		di as txt  "Would you like the spider in your hand? 'Yea.' 'Say please.' 'Please. *puts spider in hand* *screams*" 
+		di as txt  "- Would you like the spider in your hand?" "
+		di as txt  "- Yea." 
+		di as txt  "- Say please." 
+		di as txt  "- Please." 
+		di as txt  "*puts spider in hand* *screams*" 
 		exit
 	}
 
@@ -244,12 +290,14 @@ capture program drop vinequote
 	}
 
 	if `x' > 0.94 & `x' <= 0.96 {
-		di as txt  "*girl blows vape* '...WoW'"
+		di as txt  "*girl blows vape* ...WoW"
 		exit
 	}
 
 	if `x' > 0.96 & `x' <= 0.98 {
-		di as txt  "*running* '...Daddy?' 'Do I look like-?'"  
+		di as txt  "*running*"
+		di as txt  "...Daddy?"
+		di as txt  "Do I look like-?"  
 		exit
 	}
 
